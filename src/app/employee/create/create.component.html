@@ -13,6 +13,9 @@
             <label for="txtsalary" class="form-label">Salary</label>
             <input type="number" name="salary" [(ngModel)]="FormData.salary" class="form-control" id="txtsalary">
         </div>
-        <button type="button" (click)="create()" class="btn btn-primary">Create</button>
+        <div>
+            <button type="button" (click)="create()" class="btn btn-primary">Create</button>
+                <button type="reset" class="btn btn-secondary ms-2">Reset</button>
+        </div>
     </form>
 </div>

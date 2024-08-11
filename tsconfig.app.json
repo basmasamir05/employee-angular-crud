@@ -8,6 +8,9 @@
       "node"
     ]
   },
+  "angularCompilerOptions": {
+    "enableIvy": false
+  },
   "files": [
     "src/main.ts",
     "src/main.server.ts",

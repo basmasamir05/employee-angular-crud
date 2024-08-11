@@ -15,4 +15,11 @@ ngOnInit(): void {
     this.allemployees = data;
   })
 }
+deleteItem(id : number){
+  this.employeeService.delete(id).subscribe({
+    next :(data)=>{
+      this.allemployees=this.allemployees.filter(_=>_.id != id)
+    },
+  })
+}
 }

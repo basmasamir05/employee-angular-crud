@@ -2,39 +2,15 @@
   "employees": [
     {
       "id": "1",
-      "name": "John Doe",
-      "cin": "CNI123456",
-      "salary": 50000
-    },
-    {
-      "id": "2",
-      "name": "Jane Smith",
-      "cin": "CNI789012",
-      "salary": 55000
-    },
-    {
-      "id": "3",
-      "name": "Michael Johnson",
-      "cin": "CNI345678",
-      "salary": 60000
-    },
-    {
-      "id": "4",
-      "name": "Emily Davis",
-      "cin": "CNI901234",
-      "salary": 52000
-    },
-    {
-      "id": "5",
-      "name": "William Brown",
-      "cin": "CNI567890",
-      "salary": 58000
-    },
-    {
-      "id": 6,
       "name": "basma",
-      "cin": "CIN123456",
-      "salary": 4000
+      "cin": "CIN123454",
+      "salary": 5000
+    },
+    {
+      "id": 2,
+      "name": "montassir ",
+      "cin": "cg3445",
+      "salary": 50000
     }
   ]
 }
